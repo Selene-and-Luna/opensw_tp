@@ -58,7 +58,7 @@
 
 	</head>
 	<body>
-        <div id="fh5co-offcanvas">
+		<div id="fh5co-offcanvas">
             <a href="#" class="fh5co-close-offcanvas js-fh5co-close-offcanvas"><span><i class="icon-cross3"></i> <span>Close</span></span></a>
             <div class="fh5co-bio">
                 <figure>
@@ -79,19 +79,22 @@
                     <div class="fh5co-box">
                         <h3 class="heading">Categories</h3>
                         <ul>
-                            <li><a href="#">Travel</a></li>
-                            <li><a href="#">Style</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Food &amp; Drinks</a></li>
-                            <li><a href="#">Culture</a></li>
+                            <li><a href="single5.html">관계와 그 특성</a></li>
+                            <li><a href="single6.html">트리</a></li>
+                            <li><a href="single7.html">베이즈의 정리</a></li>
+                            <li><a href="single8.html">이산 확률</a></li>
+                            <li><a href="#">9</a></li>
+							<li><a href="#">10</a></li>
                         </ul>
                     </div>
                     <div class="fh5co-box">
                         <h3 class="heading">Search</h3>
                         <form action="#">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Type a keyword">
-                            </div>
+								<label>
+									<input type="text" class="form-control" placeholder="Type a keyword">
+								</label>
+							</div>
                         </form>
                     </div>
                 </div>
@@ -118,8 +121,8 @@
 		</div>
 
 	</header>
-	<a href="#" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> Prev</span></a>
-	<a href="#" class="fh5co-post-next"><span>Next <i class="icon-chevron-right"></i></span></a>
+	<a href="single5.html" class="fh5co-post-prev"><span><i class="icon-chevron-left"></i> Prev</span></a>
+	<a href="single7.html" class="fh5co-post-next"><span>Next <i class="icon-chevron-right"></i></span></a>
 	<!-- END #fh5co-header -->
 	<div class="container-fluid">
 		<div class="row fh5co-post-entry single-entry">
@@ -127,16 +130,17 @@
 				<figure class="animate-box">
 					
 				</figure>
-				<span class="fh5co-meta animate-box"><a href="single.html"></a></span>
-				<h2 class="fh5co-article-title animate-box"><a href="single.html">트리</a></h2>
-				<span class="fh5co-meta fh5co-date animate-box">December 11th, 2022</span>
+				<span class="fh5co-meta animate-box"><a href="index.html">이산수학 기초 공부</a></span>
+				<h2 class="fh5co-article-title animate-box"><a href="index.html">Discrete mathematics</a></h2>
+				<span class="fh5co-meta fh5co-date animate-box">트리</span>
 				
 				<div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
 					<div class="row">
 						<div class="col-lg-8 cp-r animate-box">
               <h4>트리의 정의 </h4>
 							<p>
-                <img src="./images/10.png" /><br>
+                <img src="./images/10.png"
+                  class="img-responsive" alt="정의"/><br>
                 루트 노드를 가지고 있고, 모든 노드들 사이에 단순 경로가 존재하는 비순환 연결 그래프 <br><br>
 - 루트 노드 : 나무의 뿌리에 해당하는, 트리에 가장 높은 곳에 위치하는 노드 <br>
 - 경로 : 노드에서 노드로 가는, 중복되지 않은 연결선들의 나열 
@@ -148,7 +152,8 @@
 
 						<h4>부모노드 </h4>
               <p>      
-                <img src="./images/11.png" /><br>
+                <img src="./images/11.png" 
+                  class="img-responsive" alt="부모노드"/><br>
 부모 노드 <br>
 - 한단계 상위 노드 <br>
 - 노드 A는 노드 B, C, D의 부모 노드 <br>
@@ -158,7 +163,8 @@
               
 <h4>자식 노드 </h4>
 							<p>
-                <img src="./images/12.png" /><br>
+                <img src="./images/12.png" 
+                  class="img-responsive" alt="자식 노드"/><br>
 - 한단계 하위 노드 <br>
 - 노드 B, C, D는 노드 A의 자식 노드 <br>
 - 노드 E, F는 노드 B의 자식 노드 <br>
@@ -166,38 +172,41 @@
 </p>
               <h4>형제 노드 </h4>
               <p>
-                <img src="./images/13.png" /><br>
+                <img src="./images/13.png" 
+                  class="img-responsive" alt="형제 노드"/><br>
 - 부모가 같은 노드 <br>
 - 노드 B, C, D는 서로 형제 노드 <br>
 - 노드 E, F는 서로 형제 노드 
               </p>
               <h4>리프 노드 </h4>
-              <p><img src="./images/14.png" /><br>
+              <p><img src="./images/14.png" 
+                   class="img-responsive" alt="리프 노드"/><br>
                 - 자식 노드가 없는 노드<br> 
 - 노드 C, E, F, G는 리프 노드 
               </p>
               <h4>중간 노드 </h4>
              <p>
-               <img src="./images/15.png" /><br>
+               <img src="./images/15.png"
+                 class="img-responsive" alt="중간 노드"/><br>
 - 루프 노드나 리프 노드가 아닌 노드 <br>
 - 노드 B와 D는 중간 노드 
              </p>
 
               <h4>노드의 차수 </h4>
               <p>
-                <img src="./images/18.png" /><br>
+                <img src="./images/18.png" 
+                  class="img-responsive" alt="노드의 차수"/><br>
 - 노드의 차수 = 자식 노드의 개수<br> 
 - A 노드 차수 = 3 <br>
 - B 노드 차수 = 2 <br>
 - C 노드 차수 = 0 <br>
 - 트리에서의 노드의 차수 != 그래프에서의 노드의 차수 
               </p>
-						</div>
-						<div class="col-lg-4 animate-box">
-							<div class="fh5co-highlight right">
-							<h4>트리의 차수 </h4>	
-						<p>
-              <img src="./images/19.png" /><br>
+						
+		<h4>트리의 차수 </h4>	
+					<p>
+          <img src="./images/19.png" 
+          class="img-responsive" alt="트리의 차수"/> <br>
 - 각 노드의 차수의 최대값 <br>
 - A 노드의 차수 = 3 <br>
 - B 노드의 차수 = 2 <br>
@@ -208,24 +217,60 @@
 
                 <h4>레벨</h4>
 								<p>
-                  <img src="./images/20.png" /><br>
+                  <img src="./images/20.png" 
+                    class="img-responsive" alt="레벨"
+                    /><br>
 - 루트 노드는 레벨 0 <br>
 - 자식 노드로 가면서 레벨이 한 단계 씩 증가 <br>
  </p>
 							<h4>트리의 높이(또는 깊이) </h4>
                 <p>
-                  <img src="./images/21.png" /><br>
+                  <img src="./images/21.png"
+                    class="img-responsive" alt="트리의 높이"/><br>
                   트리의 최대 레벨 </p>
 <h4>트리의 순회</h4>
 						<p>전위순회 : 루트 - 왼쪽 - 오른쪽 노드 순으로 방문 <br>
             중위순회 : 왼쪽 - 루트 - 오른쪽 노드 순으로 방문 <br>
             후위순회 : 왼쪽 - 오른쪽 - 루트 순으로 방문
 <p>
+</div>
+<div class="col-lg-4 animate-box">
+	<div class="fh5co-highlight right">
+	<h4>트리의 차수 </h4>
+ <p>
+<img src="./images/19.png" alt="예시 2" class="img-responsive"/><br>
+- 각 노드의 차수의 최대값 <br>
+- A 노드의 차수 = 3 <br>
+- B 노드의 차수 = 2 <br>
+- C 노드의 차수 <br>
+=> 트리의 차수 = 3 <br>
+- 트리의 차수 != 그래프의 차수 <br>
+</p>
 
-  <p><img src="./images/22.png" /></p>
+<h4>레벨</h4>
+	   <p>
+ <img src="./images/20.png" alt="루트 레벨" class="img-responsive"/><br>
+- 루트 노드는 레벨 0 <br>
+- 자식 노드로 가면서 레벨이 한 단계 씩 증가 <br>
+</p>
+	<h4>트리의 높이(또는 깊이) </h4>
+<p>
+ <img src="./images/21.png" alt="최대 레벨" class="img-responsive"/><br>
+ 트리의 최대 레벨 </p>
+<h4>트리의 순회</h4>
+ <p>전위순회 : 루트 - 왼쪽 - 오른쪽 노드 순으로 방문 <br>
+중위순회 : 왼쪽 - 루트 - 오른쪽 노드 순으로 방문 <br>
+후위순회 : 왼쪽 - 오른쪽 - 루트 순으로 방문
+	   </p>
+	</div>
+ </div>
+	
+
+  <p><img src="./images/22.png" 
+       class="img-responsive" alt="여러가지"/></p>
                 
 	<footer id="fh5co-footer">
-		<p><small>&copy; 2022. Magazine Free HTML5. All Rights Reserverd. <br> Designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a>  Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small></p>
+		<p><small>&copy; 2022. Opensource. All Rights Reserverd. <br> Designed by HY SW 2022094493 <a href="https://www.instagram.com/extreme_1202/" target="_blank">extreme_1202</a> </small></p>
 	</footer>
 	
 	<!-- jQuery -->
