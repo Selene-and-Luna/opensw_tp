@@ -1,7 +1,7 @@
 ## 오픈소스SW기초 팀프로젝트 - 수업 내용 정리한 블로그 만들어보기
 ---
 >**< $contributors$ >**
->* Selene-and-Luna
+>* *Selene-and-Luna*
 >* TUAZAR
 >* cutehums
 >* Michael4302
@@ -14,9 +14,13 @@
 >- 카테고리 별로 게시물을 볼 수 있도록 사이트 수정
 ---
 >**< 역할 분담 >**
->* 개발 총괄 및 레포지토리 관리: Selene-and-Luna
+>* 개발 총괄 및 레포지토리 관리: *Selene-and-Luna*
 >* 사이트 메인 관리 및 서버 관리: TUAZAR
->*  
+>* 시스템프로그래밍기초 정리: cutehums, wowls80742
+>* 이산수학 정리: Michael4302, wowls80742
+>* 게시물 작성: cutehums, Michael4302, wowls80742
+>* 디자인 수정: TUAZAR, cutehums
+>* 이미지 파일 관리: Michael4302
 ---
 >**< 주차별 진행 상황 >**
 >* 1주차: 프로젝트 개시, 마크업 언어 학습 및 깃 사용법 숙지
